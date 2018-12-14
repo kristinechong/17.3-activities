@@ -2,3 +2,35 @@
 /* Goal: Practice customizing bootstrap components */
 
 /* Add CSS to customize the alert component. */
+
+/* .alert-custom {
+    color: teal;
+    background-image: url("https://pbs.twimg.com/profile_images/378800000532546226/dbe5f0727b69487016ffd67a6689e75a_400x400.jpeg")
+    background-position
+} */
+
+/* .alert-custom {
+    background-color: lightsteelblue;
+    background-image: url("https://pbs.twimg.com/profile_images/378800000532546226/dbe5f0727b69487016ffd67a6689e75a_400x400.jpeg");
+    background-position: 30% 40%; 
+} */
+
+.alert-custom {
+    /* background-image: url("https://media.giphy.com/media/13CoXDiaCcCoyk/giphy.gif"); */
+    /* background-position: 40% 60%;  */
+    background-color: lightsteelblue;
+    border-color: slategray;
+    border-width: 1px;
+    margin: 1rem;
+    box-shadow: 0px 0px 3px 3px lightgray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.alert-link:hover{
+    color: whitesmoke;
+    text-shadow: 0px 0px 3px black;
+    text-decoration: none;
+}
+
